@@ -1,13 +1,16 @@
 {
-  "name": "rent-car-now-backend",
+  "name": "rent-car-now",
   "version": "1.0.0",
-  "description": "",
+  "description": "rent car now backend",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "api"
+  ],
+  "author": "shohag",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
